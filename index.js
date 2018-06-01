@@ -43,9 +43,6 @@ function time (){
     var heure   = String(now.getHours());   
     var minute  = String(now.getMinutes());
     var seconde = String(now.getSeconds());
-    if (heure.length <=1) {
-        heure="0"+heure
-    };
     if(minute.length<=1){
         minute=`0${minute}`
     };
